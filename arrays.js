@@ -39,11 +39,11 @@ function removeElementFromBeginningOfArray(arr){
   return arr;
 }
 
-function destructivelyRemoveElementFromEndOfArray(arr){
-  arr.pop()
-  return arr;
-}
+// function destructivelyRemoveElementFromEndOfArray(arr){
+//   arr.pop()
+//   return arr;
+// }
 
-function removeElementFromEndOfArray(arr){
-  var newArray = arr.slice(2, arr.length - 1);
-}
+// function removeElementFromEndOfArray(arr){
+//   var newArray = arr.slice(2, arr.length - 1);
+// }
