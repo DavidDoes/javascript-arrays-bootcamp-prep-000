@@ -35,15 +35,15 @@ function destructivelyRemoveElementFromBeginningOfArray(arr){
 }
 
 function removeElementFromBeginningOfArray(arr){
-  arr.slice(0);
+  var newArray = arr.slice(0);
   return arr;
 }
 
-// function destructivelyRemoveElementFromEndOfArray(arr){
-//   arr.pop()
-//   return arr;
-// }
+function destructivelyRemoveElementFromEndOfArray(arr){
+  arr.pop()
+  return arr;
+}
 
-// function removeElementFromEndOfArray(arr){
-//   var newArray = arr.slice(2, arr.length - 1);
-// }
+function removeElementFromEndOfArray(arr){
+  var newArray = arr.slice(2, arr.length - 1);
+}
