@@ -20,6 +20,7 @@ function addElementToEndOfArray(arr, element){
   return newArray;
 }
 
-function destructivelyAddElementToEndOfArray(array, element){
-  
+function destructivelyAddElementToEndOfArray(arr, element){
+  arr.shift(element);
+  return arr;
 }
